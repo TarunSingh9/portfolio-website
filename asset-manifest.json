@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TarunSingh9/portfolio-website/static/css/main.0e8c0b5f.css",
+    "main.js": "/TarunSingh9/portfolio-website/static/js/main.eff19b23.js",
+    "index.html": "/TarunSingh9/portfolio-website/index.html",
+    "main.0e8c0b5f.css.map": "/TarunSingh9/portfolio-website/static/css/main.0e8c0b5f.css.map",
+    "main.eff19b23.js.map": "/TarunSingh9/portfolio-website/static/js/main.eff19b23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e8c0b5f.css",
+    "static/js/main.eff19b23.js"
+  ]
+}

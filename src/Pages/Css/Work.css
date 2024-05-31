@@ -1,0 +1,91 @@
+.work-container {
+    padding: 70px;
+    background-color: #FFFBDA;
+    font-family: Arial, sans-serif;
+  }
+  
+  .description {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card1 {
+    background-color: #ecad82;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: left;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .work-h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+
+  .work-h2 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  
+  .card1 h2 {
+    margin-bottom: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #000;
+    margin: 10px 0;
+  }
+  
+  .project-description {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .github-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8B322C;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .github-link:hover {
+    background-color: #be7873;
+  }
+  
+  .card1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .para {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    padding: 3%;
+  }
+  

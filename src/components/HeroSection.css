@@ -1,0 +1,86 @@
+/* Base styles for the hero section */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto; /* Change from 100vh to auto for dynamic height */
+  min-height: 100vh; /* Ensure a minimum height of viewport */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in height calculation */
+  background-color: #FFFBDA;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 900px; /* Limit content width for better readability */
+  margin-bottom: 40px; /* Increase margin for spacing */
+}
+
+.hero-text {
+  width: 100%; /* Adjust width to full width */
+  text-align: center;
+}
+
+.hero-tagline {
+  font-size: 40px;
+  color: #9c7856;
+  margin-bottom: 20px; /* Adjust margin for spacing */
+  font-family: "Poetsen One", sans-serif;
+}
+
+.hero-intro,
+.hero-story {
+  font-size: 1.2em;
+  color: #070606;
+  margin-bottom: 20px; /* Adjust margin for spacing */
+  font-family: "Poetsen One", sans-serif;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line if needed */
+  justify-content: center;
+}
+
+.hero-button {
+  padding: 12px 24px; /* Increase padding for better touch experience */
+  margin: 10px; /* Adjust margin for spacing */
+  border: none;
+  border-radius: 4px;
+  background-color: #8B322C;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #c0726c;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+  .hero-tagline {
+    font-size: 24px;
+  }
+
+  .hero-intro,
+  .hero-story {
+    font-size: 1em;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-button {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 0; /* Adjust margin for spacing */
+  }
+}
